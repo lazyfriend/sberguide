@@ -1,0 +1,29 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav[role="navigation"] {
+    width: 250px;
+    position: fixed;
+    overflow: scroll;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #FAFAFA;
+    border-right: 1px solid #e5e5e5;
+    padding: 20px 30px;
+}
+
+a {
+	color: #4ea31e;
+}
+
+.page {
+    max-width: 798px;
+    min-width: 320px;
+    margin-left: 250px;
+    padding: 45px 30px 0;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
